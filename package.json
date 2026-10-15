@@ -1,0 +1,23 @@
+{
+  "name": "ts-learning",
+  "version": "1.0.0",
+  "description": "TypeScript 学习项目 - 从入门到掌握",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "tsc --noEmit",
+    "run:01": "tsx src/01-variables.ts",
+    "run:02": "tsx src/02-types.ts",
+    "run:03": "tsx src/03-interface-type.ts",
+    "run:04": "tsx src/04-enum.ts",
+    "run:05": "tsx src/05-function.ts",
+    "run:06": "tsx src/06-promise-async.ts",
+    "run:07": "tsx src/07-generics-union-intersection.ts",
+    "run:08": "tsx src/08-inference-typeof-keyof.ts",
+    "run:09": "tsx src/09-agent-demo.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.5.4"
+  }
+}
